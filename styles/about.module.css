@@ -1,0 +1,18 @@
+
+.textContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    border: var(--main-border-radius) solid var(--main-border-color);
+    /* box-shadow: var(--main-box-shadow); */
+    
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--main-padding);
+
+}

@@ -1,0 +1,51 @@
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.heroTextContainer {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+
+.heroTextBody {
+    font-size: var(--font-size-xl);
+    line-height: 1.5;
+    line-break: auto;
+    text-align: center;
+    color: var(--main-color--primary);
+    text-align: center;
+    z-index: 100;
+    
+}
+.heroTextBody > h1 {
+    font-size: var(--font-size-xl);
+    line-height: 1.5;
+    line-break: auto;
+    text-align: center;
+    color: var(--main-color--primary);
+    text-align: center;
+    z-index: 100;
+    
+}
+
+.heroTextSub {
+    font-size: var(--font-size-sm);
+    line-height: 1.5;
+    line-break: auto;
+    text-align: center;
+    color: var(--main-color--primary);
+    text-align: center;
+    z-index: 100;
+    padding: 3% 5%;
+    background-color: var(--main-color--secondary);
+    margin: 0% 5%;
+    border-radius: var(--main-border-radius-lg);
+    border-color: var(--main-color--tertiary);
+}
+
