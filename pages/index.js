@@ -74,7 +74,7 @@ export default function Home() {
         <section>
             <h1>Sales & Deals</h1>
 
-			{/* First grid item */}-
+			{/* First grid item */}  
             <div className={styles.textContainer}>
                     <div className={styles.imageContainer}>
                         <img className={styles.shadowImage} src='car-detailing-med.jpg'  alt='change later'/> 
