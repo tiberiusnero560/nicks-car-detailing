@@ -7,12 +7,49 @@
     
 }
 
-.container {
+.wrapper {
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: var(--main-padding);
+    margin: 0% 5%;
 
+}
+
+.formContainer {
+    align-items: center;
+    margin: 2% 5%;
+    text-align: center;
+}
+
+.formContainer form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0% 0% 2% 0%;
+}
+
+.formContainer form input {
+    width: 100%;
+    height: 3rem;
+    
+    padding: 0% 2%;
+    margin: 0% 0% 2% 0%;
+}
+
+.formContainer form textarea {
+    width: 100%;
+    height: 10rem;
+    padding: 0% 2%;
+    margin: 0% 0% 2% 0%;
+}
+
+.formContainer button {
+    width: 50%;
+    text-align: center;
+    height: 3rem;
+    margin: 0% 0% 2% 0%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
 }

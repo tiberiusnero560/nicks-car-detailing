@@ -6,6 +6,7 @@ import styles2 from '../components/hero.module.css'
 
 import Hero from '../components/hero.js'
 
+import Nav from '../components/Nav.js'
 
 export default function Home() {
   return (
@@ -14,31 +15,11 @@ export default function Home() {
 			<title>Nicks Car Detailing</title>
 			<meta name="description" content="Full Service Professional Car detailing at a reasonable price. All size vehicles." />
 			<link rel="icon" href="/favicon.ico" />
+
+            
 		</Head>
 		<header>
-			<div className={styles.headerContainer}>
-				<div className={styles.navContainer}>
-					<div className={styles.headerLogoContainer}>
-						<a href="/">
-							<img className={styles.headerLogo} src="/nicks-logo.jpg" alt="Nicks Car Detailing Logo" width={50} height={50} />
-						</a>
-					</div>
-					<ul className={styles.navList}>
-						<li className={styles.navLi}>
-							<a href="/about">About</a>
-						</li>
-						<li className={styles.navLi}>
-							<a href="/services">Services</a>
-						</li>
-						<li className={styles.navLi}>
-							<a href="/contact">Contact</a>
-						</li>
-					</ul>
-
-				</div>
-				
-			</div>
-
+            <Nav />
 
 
 

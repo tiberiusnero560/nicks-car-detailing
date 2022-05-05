@@ -49,8 +49,7 @@
 		/* Transitions */
 	--main-transition: all 0.25s ease-in-out;
 
-        /* Spacing */
-    --main-padding: 4% 2%;
+    
 
 
 
@@ -118,6 +117,8 @@ img {
 }
 
 
+
+/* Global Container Wrapper to easily style whole page*/
 
 
 

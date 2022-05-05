@@ -143,48 +143,6 @@
 
 
 
-/* Navigation  */
-
-.headerLogoContainer {
-  
-	display: flex;
-	flex-direction: row;
-	align-items: left;
-	justify-content: left;
-	padding: 2%;
- 
-}
-
-.headerLogo {
-	position: relative;
-	float: left;
-	justify-content: left;
-}
-
-.navContainer {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-around;
-	padding: 2%;
-	
-	
-}
-
-.navList {
-	display: flex;
-	justify-content: right;
-	padding: 2% 0;
-	
-	
-}
-
-.navLi {
-	padding: 2%;
-	list-style-type: none;
-}
-
-
 
 
 .footer {

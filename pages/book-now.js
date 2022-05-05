@@ -1,9 +1,9 @@
 import React from 'react'
 
-const book-now = () => {
+const booknow = () => {
   return (
-    <div>book-now</div>
+    <div>booknow</div>
   )
 }
 
-export default book-now
+export default booknow
