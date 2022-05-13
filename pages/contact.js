@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/about.module.css'
 import Head from 'next/head'
-import Nav from '../components/Nav'
+
 
 const contact = () => {
   return (
@@ -13,7 +13,6 @@ const contact = () => {
         </Head>
 
         <section>
-        <Nav />
         <h1>Contact Us</h1>
         
             <div className={styles.textContainer}>

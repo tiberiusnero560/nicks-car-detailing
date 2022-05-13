@@ -1,0 +1,13 @@
+{
+    "cSpell.ignoreWords": [
+        "NODE_ENV",
+        "build",
+        "css",
+        "posscss",
+        "production",
+        "run",
+        "svgr",
+        "tailwindcss",
+        "yarn"
+    ]
+}

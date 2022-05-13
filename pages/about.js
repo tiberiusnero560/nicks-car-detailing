@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/about.module.css'
 import Head from 'next/head'
-import Navbar from '../components/Nav'
 
 const about = () => {
   return (
@@ -13,7 +12,7 @@ const about = () => {
         </Head>
 
         <section>
-        <Navbar />
+            
         <h1>About</h1>
         
             <div className={styles.textContainer}>

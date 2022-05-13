@@ -6,7 +6,7 @@ import styles2 from '../components/hero.module.css'
 
 import Hero from '../components/hero.js'
 
-import Nav from '../components/Nav.js'
+
 
 export default function Home() {
   return (
@@ -19,7 +19,6 @@ export default function Home() {
             
 		</Head>
 		<header>
-            <Nav />
 
 
 
@@ -54,50 +53,65 @@ export default function Home() {
         {/* Sales & Deals ? Section  */} 
         <section>
             <h1>Sales & Deals</h1>
+            <div className={styles.servicesContainer}>
+                {/* First grid item */}  
+                <div className={styles.serviceWrapper}>
+                        {/* Services Image */}
+                        <div className={styles.servicesImage}>
+                            <img className={styles.servicesImage} src='car-detailing-med.jpg'  alt='change later'/> 
+                        </div>
 
-			{/* First grid item */}  
-            <div className={styles.textContainer}>
-                    <div className={styles.imageContainer}>
-                        <img className={styles.shadowImage} src='car-detailing-med.jpg'  alt='change later'/> 
-                    </div>
+                        {/* Services Title */}
+                        <div className={styles.servicesTitle}>
+                            <h2>Services</h2>
+                            <p className={styles.servicesText}>
+                                We offer a <strong>full range</strong> of services to meet your needs.
+                            </p>
 
-					<div>
-						<p className={styles.textContainer}>Full Service Detail </p>
-                    </div>
+                        </div>
 
-                    <div>
+                        {/* Services Text */}
+                        <div className={styles.servicesText}>
+                             <p><strong>Interior Detail</strong> + Exterior Claybar + Exterior Sealant</p>
+                        </div>
+                </div>
 
-                    </div>
-            </div>
+                {/* Second- grid item */}
+                <div className={styles.serviceWrapper}>
+                        <div className={styles.imageContainer}>
+                            <img className={styles.servicesImage} src='car-detailing-med.jpg'  alt='change later'/> 
+                        </div>
 
-			{/* Second- grid item */}
-            <div className={styles.textContainer}>
-                    <div className={styles.imageContainer}>
-                        <img className={styles.shadowImage} src='car-detailing-med.jpg'  alt='change later'/> 
-                    </div>
+                        <div>
+                            <p className={styles.textBody}>Full Service Detail </p>
+                        </div>
 
-					<div>
-						<p className={styles.textBody}>Full Service Detail </p>
-                    </div>
+                        <div>
+                            <strong>Interior Detail </strong>
+                            (Steam &amp; Shampoo) + <strong>Exterior Claybar + Exterior Sealant </strong>(Lasts up to 6 months!)
+                            <br></br>
+                            <strong>Spring Sale!</strong>
+                        </div>
+                </div>
 
-                    <div>
+                {/* Third grid item */}
+                <div className={styles.serviceWrapper}>
+                        <div className={styles.imageContainer}>
+                            <img className={styles.servicesImage} src='car-detailing-med.jpg' alt='change later' /> 
+                        </div>
 
-                    </div>
-            </div>
+                        <div>
+                            <p className={styles.textContainer}>Full Service Detail </p>
+                        </div>
 
-			{/* Third grid item */}
-            <div className={styles.textContainer}>
-                    <div className={styles.imageContainer}>
-                        <img className={styles.shadowImage} src='car-detailing-med.jpg' alt='change later' /> 
-                    </div>
+                        <div>
 
-					<div>
-						<p className={styles.textContainer}>Full Service Detail </p>
-                    </div>
+                        </div>
+                </div>
 
-                    <div>
 
-                    </div>
+
+
             </div>
 
         </section>
@@ -187,10 +201,7 @@ export default function Home() {
 
 
 
-		<footer className={styles.footer}>
-			2022 Nicks Car Detailing <br></br>
-			Built by Leblanc Software Solutions
-		</footer>
+		
     </div>
   )
 }
