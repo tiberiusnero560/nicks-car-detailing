@@ -70,43 +70,43 @@ export default function Home() {
 
                         </div>
 
-                        {/* Services Text */}
-                        <div className={styles.servicesText}>
-                             <p><strong>Interior Detail</strong> + Exterior Claybar + Exterior Sealant</p>
-                        </div>
+                      
                 </div>
 
                 {/* Second- grid item */}
                 <div className={styles.serviceWrapper}>
-                        <div className={styles.imageContainer}>
+                        <div className={styles.servicesImage}>
                             <img className={styles.servicesImage} src='car-detailing-med.jpg'  alt='change later'/> 
                         </div>
 
-                        <div>
-                            <p className={styles.textBody}>Full Service Detail </p>
+                        {/* Services Title */}
+                        <div className={styles.servicesTitle}>
+                            <h2>Services</h2>
+                            <p className={styles.servicesText}>
+                                We offer a <strong>full range</strong> of services to meet your needs.
+                            </p>
+
                         </div>
 
-                        <div>
-                            <strong>Interior Detail </strong>
-                            (Steam &amp; Shampoo) + <strong>Exterior Claybar + Exterior Sealant </strong>(Lasts up to 6 months!)
-                            <br></br>
-                            <strong>Spring Sale!</strong>
-                        </div>
+                        
                 </div>
 
                 {/* Third grid item */}
                 <div className={styles.serviceWrapper}>
-                        <div className={styles.imageContainer}>
+                        <div className={styles.servicesImage}>
                             <img className={styles.servicesImage} src='car-detailing-med.jpg' alt='change later' /> 
                         </div>
 
-                        <div>
-                            <p className={styles.textContainer}>Full Service Detail </p>
+                         {/* Services Title */}
+                        <div className={styles.servicesTitle}>
+                            <h2>Services</h2>
+                            <p className={styles.servicesText}>
+                                We offer a <strong>full range</strong> of services to meet your needs.
+                            </p>
+
                         </div>
 
-                        <div>
-
-                        </div>
+                       
                 </div>
 
 

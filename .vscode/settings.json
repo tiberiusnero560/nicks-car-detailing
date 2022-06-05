@@ -9,5 +9,6 @@
         "svgr",
         "tailwindcss",
         "yarn"
-    ]
+    ],
+    "workbench.editor.limit.enabled": true
 }
