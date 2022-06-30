@@ -15,33 +15,8 @@
 
 
 /* Navbar styles */
-.navContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-
-}
 
 
-.linkContainer {
-    display: flex;
-    text-align: center;
-    ;
-
-}
-
-.linkContainer li {
-    list-style: none;
-    margin: 0 10px;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;   
-    fill: white;
-}
 
 .linkContainer li:hover {
     color: #00bcd4;
@@ -49,14 +24,25 @@
 
 }
 
-.links {
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    color: black;
-    padding-right: 25px;
+.linkContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 100%;
 }
 
+
+.li {
+    list-style-type: none;
+    margin: 0 10px;
+    font-size: var(--font-size-xs);
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;   
+    fill: white;
+}
 
 
 
@@ -156,18 +142,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 10px;
         margin-left: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
         height: 80px;
         background-color: #f7f8ff;
         border-radius: 0px 0px 0px 0px;
-        border-bottom: 1px solid #f7f8ff;
-        border-top: 1px solid #f7f8ff;
-        border-right: 1px solid #f7f8ff;
-        border-left: 1px solid #f7f8ff;
-        box-shadow: 0px 0px 10px #f7f8ff;
         z-index: 1;
         top: 0;
         left: 0;
@@ -177,19 +155,10 @@
 
     .navLinks {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 10px;
-        margin-left: 10px;
-        padding-left: 0px;
-        padding-right: 0px;
-        height: 80px;
-        background-color: #f7f8ff;
         border-radius: 0px 0px 0px 0px;
         z-index: 1;
-        top: 0;
-        left: 0;
         transition: all 0.5s;
+        
         
     }
     
@@ -197,12 +166,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 10px;
         margin-left: 10px;
         padding-left: 0px;
         padding-right: 0px;
         height: 80px;
-        background-color: #f7f8ff;
         border-radius: 0px 0px 0px 0px;
         z-index: 1;
         top: 0;
@@ -231,4 +198,9 @@
     
 }
 
+@media (min-width: 996px) {
+    .li {
+        font-size: var(--font-size-md);
+    }
+}
 

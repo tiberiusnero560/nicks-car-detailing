@@ -20,11 +20,6 @@ const Navbar = () => {
 
 	const MenuItems = [
 		{
-			href: '/',
-			title: 'Home',
-			icon: 'home'
-		},
-		{
 			href: '/about',
 			title: 'About',
 			icon: 'info'
@@ -33,6 +28,11 @@ const Navbar = () => {
 			href: '/services',
 			title: 'Services',
 			icon: 'tools'
+		},
+		{
+			href: '/book-now',
+			title: 'Book Now',
+			icon: 'book'
 		},
 		{
 			href: '/contact',
@@ -67,12 +67,17 @@ const Navbar = () => {
 		<div className={styles.navLinks}>
 			{MenuItems.map((item, index) => {
 				return (
-					<div className={styles.navItems}>
+					<div key={index} className={styles.navItems}>
 						<Link href={item.href} key={index}>
-								<a className={styles.link}>
-									{/* <i className={`fas fa-${item.icon}`}></i> */}
-									<span>{item.title}</span>
-								</a>
+                            <div className={styles.linkContainer}>
+                                <li className={styles.li}>
+                                    <a key={index} className={styles.link}>
+                                        {/* <i className={`fas fa-${item.icon}`}></i> */}
+                                        <h4>{item.title}</h4>
+                                    </a>
+                                </li>
+
+                            </div>
 						</Link>
 
 					</div>

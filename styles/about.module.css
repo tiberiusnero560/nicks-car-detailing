@@ -53,3 +53,17 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+.button {
+    width: 50%;
+    text-align: center;
+    height: 3rem;
+    margin: 0% 0% 2% 0%;
+    padding: 3% 7%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(16, 16, 15, 0.868);
+}

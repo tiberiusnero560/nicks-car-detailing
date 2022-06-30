@@ -1,26 +1,14 @@
 import React from 'react'
-import styles from '../components/hero.module.css'
+import styles from '../styles/hero.module.css'
 
 const hero = () => {
   return (
     <div>
-
-        <div className={styles.heroTextContainer}>
-            <h1 className={styles.heroTextBody}>
-                Nicks Car Detailing
-            </h1>
-            <div>
-                <p className={styles.heroTextSub}>
-                    We are a car detailing company that specializes in detailing cars and trucks.
-                </p>
-
-            </div>
-        </div>
-
         <picture>
-            <source media="(min-width:650px)" srcSet="hero-lg.jpg" />
-            <source media="(min-width:465px)" srcSet="hero-med.jpg" />
-            <img className={styles.image} src="hero-mobile.jpg" alt="Flowers" />
+            <source media="(min-width:1920px)" srcSet="/images/HeroXLarge.jpg" />
+            <source media="(min-width:650px)" srcSet="/images/HeroLarge.jpg" />
+            <source media="(min-width:416px)" srcSet="/images/HeroMed.jpg" />
+            <img className={styles.image} src="/images/Detailing.jpg" alt="Flowers" />
         </picture>
         
         

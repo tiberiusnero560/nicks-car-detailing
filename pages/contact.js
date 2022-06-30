@@ -7,7 +7,7 @@ const contact = () => {
   return (
     <div className={styles.wrapper}>
         <Head>
-            <title>Nicks Car Detailing</title>
+            <title>Donovans Detailing</title>
             <meta name="description" content="Full Service Professional Car detailing at a reasonable price. All size vehicles." />
             <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -22,14 +22,18 @@ const contact = () => {
 
 
                     <div className={styles.formContainer}>
-                        <form>
-                            <label>Name</label>
-                                <input type="text" />
-                            <label>Email</label>
-                                <input type="text" />
-                            <label>Message</label>
-                                <textarea></textarea>
-                            <button>Submit</button>
+                        <form action='mailto:kyle.leblanc88@gmail.com'
+                            method='post'
+                            enctype='text/plain'
+                            name='contact'>
+                            <label htmlFor='name'>Name</label>
+                            <input type='text' name='name' />
+                            Message: <br /> 
+                            <textarea name='message' rows='10' cols='30'></textarea>
+                            <input type='submit' value='Send' />
+                            
+
+
                             
                         </form>
                     </div>

@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 const about = () => {
   return (
-    <div className={styles.wrapper}>
+    <div>
         <Head>
             <title>Nicks Car Detailing</title>
             <meta name="description" content="Full Service Professional Car detailing at a reasonable price. All size vehicles." />
@@ -13,7 +13,7 @@ const about = () => {
 
         <section>
             
-        <h1>About</h1>
+            <h1>About</h1>
         
             <div className={styles.textContainer}>
                     <p>

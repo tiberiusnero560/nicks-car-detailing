@@ -7,13 +7,14 @@
     --main-color--accent: #23cdebb5;
     --secondary-color--accent: #ff3300;
 
-    --main-bg-color: #645a5a8a;
+    --main-bg-color: #ede4e48a;
+    --secondary-bg-color: #645a5a8a;
+
 
 
 		/* Typography */
-	--main-font-color--primary: #f5f5f5;
-	--main-font-color--secondary: #f5f5f5;
-	--main-font-color--tertiary: #f5f5f5;
+	--main-font-color--primary: #f9f2f2e2;
+	--main-font-color--secondary: #050505d2;
 
 	--main-font-family: "Roboto", sans-serif;
 
@@ -32,6 +33,10 @@
 	--font-size-sm: 1rem;
 	--font-weight-sm: 400;
 	--font-weight-bold-sm: 700;
+
+    --font-size-xs: 0.8rem;
+    --font-weight-xs: 400;
+    --font-weight-bold-xs: 700;
 
 		/* ------------ */
 
@@ -99,7 +104,7 @@ section:after {
     margin: 0 auto; /* This will center the border. */
     width: 50%; /* Change this to whatever width you want. */
     padding-top: 20px; /* This creates some space between the element and the border. */
-    border-bottom: 2.3px solid black; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 2.3px solid rgb(255, 0, 0); /* This creates the border. Replace black with whatever color you want. */
     margin-bottom: 0%;
     margin-top: 20%;
 }
@@ -110,6 +115,32 @@ section:after {
 }
 main:focus {
 	outline: none;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-device-width: 600px) {
+    section {
+        width: 100%;
+        height: 100%;
+        padding: 2% 5%;
+    }
+}
+
+@media (min-device-width: 600px) {
+    section {
+        width: 100%;
+        height: 100%;
+        padding: 2% 10%;
+    }
 }
 
 img {
