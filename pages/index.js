@@ -53,12 +53,12 @@ export default function Home() {
                     <div className={styles.serviceWrapper}>
                             {/* Services Image */}
                             <div className={styles.servicesImage}>
-                                <img className={styles.servicesImage} src='car-detailing-med.jpg'  alt='change later'/> 
+                                <img className={styles.servicesImage} src='/services/desk-small.jpg'  alt='change later'/> 
                             </div>
 
                             {/* Services Title */}
                             <div className={styles.servicesTitle}>
-                                <h2>Services</h2>
+                                <h2>Basic Detail</h2>
                                 <p className={styles.servicesText}>
                                     We offer a <strong>full range</strong> of services to meet your needs.
                                 </p>
@@ -67,19 +67,23 @@ export default function Home() {
 
                             {/* Services Text */}
                             <div className={styles.servicesText}>
-                                <p><strong>Interior Detail</strong> + Exterior Claybar + Exterior Sealant</p>
+                                <p>
+                                    $100 <strong>Interior Detail</strong> <br></br>
+                                    $100 Exterior Claybar 
+                                    $100 Exterior Sealant
+                                </p>
                             </div>
                     </div>
 
                     {/* Second- grid item */}
                     <div className={styles.serviceWrapper}>
                             <div className={styles.imageContainer}>
-                                <img className={styles.servicesImage} src='car-detailing-med.jpg'  alt='change later'/> 
+                                <img className={styles.servicesImage} src='services/desk-small.jpg'  alt='change later'/> 
                             </div>
 
                             {/* Services Title */}
                             <div className={styles.servicesTitle}>
-                                <h2>Services</h2>
+                                <h2>Moderate Detail</h2>
                                 <p className={styles.servicesText}>
                                     We offer a <strong>full range</strong> of services to meet your needs.
                                 </p>
@@ -88,7 +92,11 @@ export default function Home() {
 
                             {/* Services Text */}
                             <div className={styles.servicesText}>
-                                <p><strong>Interior Detail</strong> + Exterior Claybar + Exterior Sealant</p>
+                                <p>
+                                    $100 <strong>Interior Detail</strong> <br></br>
+                                    $100 Exterior Claybar 
+                                    $100 Exterior Sealant
+                                </p>
                             </div> 
                     </div>
 
@@ -100,7 +108,7 @@ export default function Home() {
 
                         {/* Services Title */}
                             <div className={styles.servicesTitle}>
-                                <h2>Services</h2>
+                                <h2>Heavy Detail</h2>
                                 <p className={styles.servicesText}>
                                     We offer a <strong>full range</strong> of services to meet your needs.
                                 </p>
@@ -109,9 +117,41 @@ export default function Home() {
 
                             {/* Services Text */}
                             <div className={styles.servicesText}>
-                                <p><strong>Interior Detail</strong> + Exterior Claybar + Exterior Sealant</p>
+                               <p>
+                                    $100 <strong>Interior Detail</strong> <br></br>
+                                    $100 Exterior Claybar 
+                                    $100 Exterior Sealant
+                                </p>
                             </div>
                     </div>
+
+
+                    {/* Fourth grid item */}
+                    <div className={styles.serviceWrapper}>
+                            <div className={styles.imageContainer}>
+                                <img className={styles.servicesImage} src='car-detailing-med.jpg' alt='change later' /> 
+                            </div>
+
+                        {/* Services Title */}
+                            <div className={styles.servicesTitle}>
+                                <h2>Complete Full Service Detail</h2>
+                                <p className={styles.servicesText}>
+                                    We offer a <strong>full range</strong> of services to meet your needs.
+                                </p>
+
+                            </div>
+
+                            {/* Services Text */}
+                            <div className={styles.servicesText}>
+                               <p>
+                                    $100 <strong>Interior Detail</strong> <br></br>
+                                    $100 Exterior Claybar 
+                                    $100 Exterior Sealant
+                                </p>
+
+                            </div>
+                    </div>
+
 
 
 
@@ -183,7 +223,7 @@ export default function Home() {
                         <div className={styles.textColumn}>
                             <div className={styles.textWrapper}> 
                                 <div className={styles.textBody}>
-                                    <span><strong>Kyle LeBlanc</strong></span>
+                                    <span><strong>Andrew Eiselt</strong></span>
                                     <p> I was very happy with Nicks work. I have been using his service for my Mitsubishi Eclipse and Subaru Forester. I have had my car professionally detail for over a year now and I am very happy with the results. I would recommend Nicks work to anyone looking for a professional detailing service. </p>
                                 </div>
 
